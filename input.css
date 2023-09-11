@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .testing-class {
+    @apply bg-blue-500;
+  }
+
+  .text {
+    @apply text-red-500;
+  }
+
+  .sidebar {
+    @apply bg-red-500;
+  }
+}
